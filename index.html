@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js side nav</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-image: url(hello.jpg.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        .sidenav{
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+           
+            background-color: #111;
+        }
+        .sidenav a{
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            display: block;
+            font-size: 25px;
+            color: #818181;
+            transition: 0.3s;
+            
+        }
+        .sidenav a:hover{
+            color: #d32323;
+        }
+        .sidenav .closebtn{
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 35px;
+            margin-left: 50px;
+        }
+        @media screen and (max-height: 450px) {
+            .sidenav{padding-top: 15px;}
+            .sidenav a{font-size: 18px;}
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="mysidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+        <a href="about.html">about</a>
+        <a href="#">services</a>
+        <a href="#">contact</a>
+      
+    </div>
+    <!--<h2>animated sidenav</h2>
+    <p>click on the element below to open sidenav</p>-->
+    <span
+    style="font-size: 30px;cursor: pointer;position: fixed;" 
+    onclick="opennav()">&#9776;</span>
+
+    <script type="text/javascript">
+        function opennav() {
+            document.getElementById('mysidenav').style.width="250px";
+        }
+        function closenav() {
+            document.getElementById('mysidenav').style.width="0";
+        }
+
+    </script>
+
+    <div id="article">
+        <h2>this is a heading</h2>
+        <p>
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+
+
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+            
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+        </p>
+    </div>
+
+
+    <div id="article0">
+        <h2>heading</h2>
+        <p>
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+
+
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+            
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+        </p>
+    </div>
+
+    <div id="article1">
+        <h2>welcome to our webpage</h2>
+        <p>
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+
+
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+            
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+        </p>
+    </div>
+
+    <div id="article2">
+        <h2>this is a heading</h2>
+        <p>
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+
+
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+            
+            hello guys this is a simple paragraph for testing my page. i want to check if it's working or not. 
+            if it works then it will be a great benefit to me but if it's not then it's all about westing of time.
+            and you all know guys that how important time is, right?<br><br>
+        </p>
+    </div>
+</body>
+</html>
