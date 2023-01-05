@@ -45,6 +45,15 @@
             font-size: 35px;
             margin-left: 50px;
         }
+button{
+position: fixed;
+left: 10px;
+bottom: 5px;
+cursor: pointer;
+background-color: red;
+
+}
+
         @media screen and (max-height: 450px) {
             .sidenav{padding-top: 15px;}
             .sidenav a{font-size: 18px;}
@@ -165,5 +174,11 @@
             and you all know guys that how important time is, right?<br><br>
         </p>
     </div>
+<button onclick="scrollup()">&#8673;</button>
+<script>
+function scrollup(){
+window.scrollTo(0,0);
+}
+</script>
 </body>
 </html>
